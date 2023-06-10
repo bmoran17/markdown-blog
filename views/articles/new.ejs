@@ -9,7 +9,13 @@
 </head>
 <body>
   <div class="container">
-    vb dsgsfdh
+    <h1 class="mb-4">New Article</h1>
+
+    <!-- post method because we are submittinig data to /articles -->
+    <form action="/articles" method="POST">
+      <!-- file with all input fields, same for new & edit view -->
+      <%- include('_form_fields') %>
+    </form>
   </div>
 </body>
 </html>
