@@ -14,6 +14,8 @@ mongoose.connect('mongodb://localhost:27017/blog', {
   useUnifiedTopology: true, useNewUrlParser: true 
 })
 
+
+
 // setups view engine to 'ejs' (will be writing all of our views using ejs => our view engine converts ejs to HTML)
 app.set('view engine', 'ejs')
 
